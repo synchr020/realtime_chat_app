@@ -4,17 +4,16 @@
   "description": "Realtime chat app with rooms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"start": "node index"
-    ,"dev":"nodemon index"
-
-    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "AaronOfROD",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "moment": "^2.29.4",
+    "qs": "^6.11.1",
     "socket.io": "^4.6.1"
   },
   "devDependencies": {
